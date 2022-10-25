@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* Color Theme Swatches in Hex */
+.Plantação-de-milho-em-crescimento,-foco-seletivo,-fase-inicial-1-hex { color: #E9F1F2; }
+.Plantação-de-milho-em-crescimento,-foco-seletivo,-fase-inicial-2-hex { color: #97BF04; }
+.Plantação-de-milho-em-crescimento,-foco-seletivo,-fase-inicial-3-hex { color: #6E8C03; }
+.Plantação-de-milho-em-crescimento,-foco-seletivo,-fase-inicial-4-hex { color: #667302; }
+.Plantação-de-milho-em-crescimento,-foco-seletivo,-fase-inicial-5-hex { color: #733B2F; }
+
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../img/bg_0.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+}
+
+#bloc-Quiz {
+    margin-top: 3%;
+
+}
+
+#quiz {
+    padding: 2%;
+}
+
+.option {
+    margin: 1.5%;
+    padding: 1.5%;
+    background-color: #97BF04;
+    color: #fff;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #733B2F;
+}
+
+#progress {
+    margin-top: 5%;
+}
+
+.progress-bar{
+    background-color: #667302 !important;
+}
