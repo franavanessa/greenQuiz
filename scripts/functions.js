@@ -12,33 +12,36 @@ const progressBar = window.document.getElementById('prgbar');
 const questions = [ // Array com as perguntas
     {
         image: 'url(https://images.pexels.com/photos/158780/leaf-nature-green-spring-158780.jpeg)',
-        title: 'Essa é a primeira pergunta',
+        title: 'O que fazer quando se tem pilhas e baterias que não são mais utilizadas em sua residência?',
         options: [
-            { opc: 'A', txt: 'Primeira Opção Primeira' },
-            { opc: 'B', txt: 'Segunda Opção Segunda' },
-            { opc: 'C', txt: 'Terceira Opção Terceira' }
+            { opc: 'A', txt: 'Levar a um local de coleta e descarte de pilhas.' },
+            { opc: 'B', txt: 'Jogar no lixo' },
+            { opc: 'C', txt: 'Enterrar' },
+	    { opc: 'D', txt: 'Nenhuma das respostas anteriores' }
         ],
         correct: 'A'
     },
     {
         image: 'url(https://super.abril.com.br/wp-content/uploads/2019/06/site_temponatureza.png)',
-        title: 'Essa é a segunda pergunta',
+        title: 'Qual o país que mais tem acúmulo de lixo eletrônico ?',
         options: [
-            { opc: 'A', txt: 'Primeira Opção' },
-            { opc: 'B', txt: 'Segunda Opção' },
-            { opc: 'C', txt: 'Terceira Opção' }
+            { opc: 'A', txt: 'China' },
+            { opc: 'B', txt: 'Brasil' },
+            { opc: 'C', txt: 'Africa do Sul' },
+	    { opc: 'D', txt: 'Estados Unidos' }
         ],
-        correct: 'B'
+        correct: 'D'
     },
     {
         image: 'url(https://blog.phebo.com.br/wp-content/uploads/2020/07/destino-na-natureza-780x450.jpg)',
-        title: 'Essa é a terceira pergunta',
+        title: 'Somente uma Terra é o tema de campanha da semana do meio ambiente 2022. O evento tem duração de 7 dias todos os anos, mas tem 1 dia que é considerado oficial, qual dia é esse?',
         options: [
-            { opc: 'A', txt: 'Primeira Opção' },
-            { opc: 'B', txt: 'Segunda Opção' },
-            { opc: 'C', txt: 'Terceira Opção' }
+            { opc: 'A', txt: '5 de junho' },
+            { opc: 'B', txt: '31 de maio' },
+            { opc: 'C', txt: '6 de junho' },
+	    { opc: 'D', txt: '1 de junho' }
         ],
-        correct: 'C'
+        correct: 'A'
     }
 ];
 
