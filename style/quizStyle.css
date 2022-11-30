@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
 
-html, body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Fredoka', sans-serif;
-}
-
 /* Color Theme Swatches in Hex */
 .Plantação-de-milho-em-crescimento,-foco-seletivo,-fase-inicial-1-hex { color: #E9F1F2; }
 .Plantação-de-milho-em-crescimento,-foco-seletivo,-fase-inicial-2-hex { color: #97BF04; }
@@ -13,41 +7,108 @@ html, body {
 .Plantação-de-milho-em-crescimento,-foco-seletivo,-fase-inicial-4-hex { color: #667302; }
 .Plantação-de-milho-em-crescimento,-foco-seletivo,-fase-inicial-5-hex { color: #733B2F; }
 
-.wrapper {
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;
+}
+
+#wrapper {
     width: 100%;
     min-height: 100vh;
-    background-image: url(../img/bg_0.png);
+    background-image: url(../img/bg.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size:cover;
 }
 
-#bloc-Quiz {
-    margin-top: 3%;
-
-}
-
 #quiz {
     padding: 2%;
+    margin-top: 7%;
+    border-radius: 1em;
+    border: none;
+    box-shadow: rgba(193, 255, 187, 0.493) 0px 3px 8px;
+}
+
+#imgQuestion {
+    width: auto;
+    height: 250px;
+    margin: .7em 1em;
+    background-color: rgb(224, 224, 224);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#titleQuestion {
+    font-weight:bold;
 }
 
 .option {
     margin: 1.5%;
-    padding: 1.5%;
+    padding: .5em 0;
     background-color: #97BF04;
     color: #fff;
     border-radius: 100px;
     cursor: pointer;
 }
-
 .option:hover {
     background-color: #733B2F;
 }
 
+.letter {
+    background-color: #6E8C03;
+    padding: .2em 1em;
+    margin-right: .1em;
+    border-radius: 60px;
+}
+
+.answer {
+    padding: 5% 10%;
+}
+
 #progress {
-    margin-top: 5%;
+    margin-top: 8%;
 }
 
 .progress-bar{
     background-color: #667302 !important;
+}
+
+#footer {
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+    font-size: small;
+    text-align: center;
+    color: #ddfc6f;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.share {
+    background-color: #97BF04;
+    color: white;
+    padding: 0.5em 1em;
+    width: 60%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin: 1em 0 1em 0;
+}
+
+.restart {
+    background-color: #733B2F;
+    color: white;
+    padding: 0.5em 1em;
+    width: 60%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin: 1em 0 1em 0;
 }

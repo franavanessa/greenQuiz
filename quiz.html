@@ -7,40 +7,35 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="style/quizStyle.css">
-    <title>Quiz</title>
+    <title>Green Quiz</title>
 </head>
 <body>
-    <div class="wrapper">
+    <div id="wrapper">
         <section class="container text-center">
             <div class="row justify-content-center">
-                <div class="col-3">
-                    Logo Quiz
-                </div>
-                <div class="col-6" id="bloc-Quiz">
+                <div class="col-md-5">
                     <div class="card mb-3" id="quiz">
-                        <img src="https://images.pexels.com/photos/158780/leaf-nature-green-spring-158780.jpeg" class="card-img-top" alt="...">
+                        <div id="imgQuestion"><!-- Imagem de apoio da pergunta Quiz --></div>
                         <div class="card-body">
-                          <h5 class="card-title">Primeira pergunta?</h5>
-                          <div class="row justify-content-center" id="list-options">
-                            <span class="option">A - Primeira opção</span>
-                            <span class="option">B - Segunda opção</span>
-                            <span class="option">C - Terceira opção</span>
-                            <span class="option">D - Quarta opção</span>
-                          </div>
-                          <div class="progress" id="progress">
-                            <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
+                            <h5 class="card-title" id="titleQuestion"><!-- Pergunta do Quiz --></h5>
+                            <hr id="separator">
+                            <!-- Opçãos de resposta do Quiz -->
+                            <div class="row justify-content-center" id="list-options">
+                            </div>
+                            <!-- Fim das opções de resposta do quiz -->
+                            <div class="col progress" id="progress">
+                                <!-- Barra de progresso -->
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" id="prgbar" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                         </div>
-                      </div>
-                </div>
-                <div class="col-3">
-                    Time
+                    </div>
                 </div>
             </div>
         </section>
+        <!-- Rodapé -->
+        <footer id="footer">Projeto PCA - Fábrica de Software UNIGRANRIO</footer>
     </div>
-
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!-- Script com as funções -->
+    <script src="/scripts/functions.js"></script>
 </body>
 </html>
